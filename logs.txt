@@ -1,0 +1,2272 @@
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 3), (3, 1), (5, 4), (5, 7), (8, 9), (9, 8), (0, 5), (1, 0), (2, 5), (7, 4), (7, 7), (6, 5), (4, 2), (3, 3), (3, 6), (9, 4), (8, 8), (0, 4), (1, 5), (7, 3), (6, 7), (7, 6), (4, 1), (3, 5), (5, 2), (5, 5), (9, 3), (5, 8), (9, 6), (0, 3), (2, 0), (1, 4), (0, 6), (2, 3), (2, 6), (7, 2), (6, 0), (7, 5)}
+Running simulation...
+food [(6, 7), (7, 6), (4, 1), (3, 5), (5, 2)]
+water [(5, 5), (9, 3), (5, 8), (9, 6), (0, 3)]
+garlic [(2, 0), (1, 4), (0, 6), (2, 3), (2, 6)]
+CSV file created successfully
+--------------------
+Timestep: 1
+--------------------
+A human ate food. at postion (6, 7)
+A human ate garlic. at postion (0, 6)
+--------------------
+Timestep: 2
+--------------------
+A vampire was killed by a human. at postion (7, 0)
+Vampire: Health=10, Age=0, Position=(7, 0)
+A human ate garlic. at postion (2, 3)
+A human ate garlic. at postion (2, 6)
+--------------------
+Timestep: 3
+--------------------
+A vampire was killed by a human. at postion (7, 7)
+Vampire: Health=17, Age=0, Position=(7, 7)
+A human ate garlic. at postion (2, 0)
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 9
+A human was bitten by a vampire. at postion (1, 6)
+Human: Health=96, Age=12, Position=(1, 6)
+Two vampires bit each other. at postion (1, 6)
+--------------------
+Timestep: 5
+--------------------
+new no of vampires 10
+A human was bitten by a vampire. at postion (5, 6)
+Human: Health=95, Age=30, Position=(5, 6)
+Two vampires bit each other. at postion (5, 6)
+A human ate food. at postion (3, 5)
+--------------------
+Timestep: 6
+--------------------
+--------------------
+Timestep: 7
+--------------------
+A vampire was killed by a human. at postion (0, 4)
+Vampire: Health=41, Age=0, Position=(0, 4)
+A vampire was killed by a human. at postion (5, 6)
+Vampire: Health=80, Age=0, Position=(5, 6)
+A vampire was killed by a human. at postion (5, 5)
+Vampire: Health=16, Age=0, Position=(5, 5)
+A human drank water. at postion (5, 5) with and now has health 100
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 8
+A human was bitten by a vampire. at postion (6, 8)
+Human: Health=92, Age=12, Position=(6, 8)
+A vampire was killed by a human. at postion (6, 8)
+Vampire: Health=100, Age=0, Position=(6, 8)
+A human ate food. at postion (7, 6)
+--------------------
+Timestep: 9
+--------------------
+A human drank water. at postion (9, 6) with and now has health 100
+--------------------
+Timestep: 10
+--------------------
+A human drank water. at postion (5, 8) with and now has health 100
+Simulation finished.
+---------Remaining-----------
+Humans:
+7
+--------------------
+Vampires:
+7
+--------------------
+Food:
+2
+--------------------
+Water:
+2
+--------------------
+Garlic:
+1
+---------Eaten-----------
+Eaten humans Human: Health=96, Age=12, Position=(1, 6)
+-------------------
+Eaten humans Human: Health=95, Age=30, Position=(5, 6)
+-------------------
+Eaten humans Human: Health=92, Age=12, Position=(6, 8)
+-------------------
+Eaten vampires Vampire: Health=10, Age=0, Position=(7, 0)
+Eaten vampires Vampire: Health=17, Age=0, Position=(7, 7)
+Eaten vampires Vampire: Health=41, Age=0, Position=(0, 4)
+Eaten vampires Vampire: Health=80, Age=0, Position=(5, 6)
+Eaten vampires Vampire: Health=16, Age=0, Position=(5, 5)
+Eaten vampires Vampire: Health=100, Age=0, Position=(6, 8)
+---------TOTAL----------
+no of humans 3
+no of vampires 6
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(3, 1), (4, 9), (5, 4), (3, 7), (4, 6), (8, 0), (2, 2), (1, 0), (0, 8), (1, 3), (7, 4), (3, 9), (4, 8), (8, 2), (0, 4), (2, 1), (1, 5), (7, 0), (1, 8), (6, 4), (7, 3), (3, 2), (4, 1), (4, 7), (3, 5), (5, 2), (9, 0), (3, 8), (5, 5), (9, 3), (1, 1), (0, 3), (2, 0), (0, 6), (7, 2), (6, 0), (7, 5), (6, 9)}
+Running simulation...
+food [(7, 3), (3, 2), (4, 1), (4, 7), (3, 5)]
+water [(5, 2), (9, 0), (3, 8), (5, 5), (9, 3)]
+garlic [(1, 1), (0, 3), (2, 0), (0, 6), (7, 2)]
+CSV file created successfully
+--------------------
+Timestep: 1
+--------------------
+A vampire was killed by a human. at postion (8, 1)
+Vampire: Health=37, Age=0, Position=(8, 1)
+new no of vampires 10
+A human was bitten by a vampire. at postion (1, 4)
+Human: Health=99, Age=39, Position=(1, 4)
+A vampire was killed by a human. at postion (1, 4)
+Vampire: Health=100, Age=0, Position=(1, 4)
+A human drank water. at postion (3, 8) with and now has health 100
+A human drank water. at postion (5, 2) with and now has health 100
+--------------------
+Timestep: 2
+--------------------
+Both humans helped each other. at postion (10, 3)
+--------------------
+Timestep: 3
+--------------------
+A human ate garlic. at postion (7, 2)
+--------------------
+Timestep: 4
+--------------------
+Two vampires bit each other. at postion (5, 5)
+A human ate food. at postion (3, 5)
+--------------------
+Timestep: 5
+--------------------
+new no of vampires 10
+A human was bitten by a vampire. at postion (5, 2)
+Human: Health=95, Age=49, Position=(5, 2)
+new no of vampires 11
+A human was bitten by a vampire. at postion (3, 4)
+Human: Health=96, Age=41, Position=(3, 4)
+Two vampires bit each other. at postion (5, 2)
+Two vampires bit each other. at postion (3, 4)
+--------------------
+Timestep: 6
+--------------------
+Two vampires bit each other. at postion (9, 3)
+A human drank water. at postion (9, 0) with and now has health 100
+--------------------
+Timestep: 7
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (5, 5)
+Human: Health=93, Age=35, Position=(5, 5)
+Both humans helped each other. at postion (2, 7)
+Two vampires bit each other. at postion (5, 5)
+--------------------
+Timestep: 8
+--------------------
+A vampire was killed by a human. at postion (3, 3)
+Vampire: Health=90, Age=0, Position=(3, 3)
+new no of vampires 12
+A human was bitten by a vampire. at postion (2, 5)
+Human: Health=103, Age=37, Position=(2, 5)
+Two vampires bit each other. at postion (2, 5)
+A human ate food. at postion (3, 2)
+A human ate garlic. at postion (2, 0)
+--------------------
+Timestep: 9
+--------------------
+new no of vampires 13
+A human was bitten by a vampire. at postion (2, 7)
+Human: Health=95, Age=11, Position=(2, 7)
+Two vampires bit each other. at postion (2, 7)
+--------------------
+Timestep: 10
+--------------------
+Simulation finished.
+---------Remaining-----------
+Humans:
+4
+--------------------
+Vampires:
+13
+--------------------
+Food:
+3
+--------------------
+Water:
+2
+--------------------
+Garlic:
+3
+---------Eaten-----------
+Eaten humans Human: Health=99, Age=39, Position=(1, 4)
+-------------------
+Eaten humans Human: Health=95, Age=49, Position=(5, 2)
+-------------------
+Eaten humans Human: Health=96, Age=41, Position=(3, 4)
+-------------------
+Eaten humans Human: Health=93, Age=35, Position=(5, 5)
+-------------------
+Eaten humans Human: Health=103, Age=37, Position=(2, 5)
+-------------------
+Eaten humans Human: Health=95, Age=11, Position=(2, 7)
+-------------------
+Eaten vampires Vampire: Health=37, Age=0, Position=(8, 1)
+Eaten vampires Vampire: Health=100, Age=0, Position=(1, 4)
+Eaten vampires Vampire: Health=90, Age=0, Position=(3, 3)
+---------TOTAL----------
+no of humans 6
+no of vampires 3
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 3), (4, 9), (3, 7), (9, 2), (9, 5), (8, 9), (9, 8), (0, 5), (8, 6), (1, 3), (1, 9), (7, 4), (3, 9), (5, 6), (4, 8), (5, 3), (9, 1), (9, 7), (9, 4), (0, 7), (1, 2), (0, 4), (2, 1), (2, 7), (7, 3), (7, 9), (6, 7), (4, 7), (3, 5), (8, 7), (9, 6), (0, 9), (1, 4), (2, 3), (2, 9), (2, 6), (6, 0), (6, 3), (7, 8)}
+Running simulation...
+food [(1, 2), (0, 4), (2, 1), (2, 7), (7, 3)]
+water [(7, 9), (6, 7), (4, 7), (3, 5), (8, 7)]
+garlic [(9, 6), (0, 9), (1, 4), (2, 3), (2, 9)]
+CSV file created successfully
+--------------------
+Timestep: 1
+--------------------
+--------------------
+Timestep: 2
+--------------------
+Both humans helped each other. at postion (3, 9)
+Both humans helped each other. at postion (0, 5)
+Two vampires bit each other. at postion (8, 8)
+--------------------
+Timestep: 3
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (7, 3)
+Human: Health=97, Age=26, Position=(7, 3)
+A vampire was killed by a human. at postion (7, 3)
+Vampire: Health=100, Age=0, Position=(7, 3)
+A human drank water. at postion (7, 9) with and now has health 100
+A human drank water. at postion (3, 5) with and now has health 100
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (3, 10)
+Human: Health=99, Age=34, Position=(3, 10)
+Two vampires bit each other. at postion (3, 5)
+Two vampires bit each other. at postion (3, 10)
+A human ate garlic. at postion (2, 9)
+--------------------
+Timestep: 5
+--------------------
+--------------------
+Timestep: 6
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (6, 4)
+Human: Health=94, Age=14, Position=(6, 4)
+Two vampires bit each other. at postion (6, 4)
+A human drank water. at postion (6, 7) with and now has health 100
+A human drank water. at postion (8, 7) with and now has health 100
+--------------------
+Timestep: 7
+--------------------
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 13
+A human was bitten by a vampire. at postion (5, 2)
+Human: Health=96, Age=37, Position=(5, 2)
+A vampire was killed by a human. at postion (10, 4)
+Vampire: Health=71, Age=0, Position=(10, 4)
+Two vampires bit each other. at postion (5, 2)
+Two vampires bit each other. at postion (5, 2)
+Two vampires bit each other. at postion (5, 2)
+--------------------
+Timestep: 9
+--------------------
+Two vampires bit each other. at postion (7, 1)
+Two vampires bit each other. at postion (5, 7)
+A human ate food. at postion (2, 1)
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 13
+A human was bitten by a vampire. at postion (7, 4)
+Human: Health=96, Age=44, Position=(7, 4)
+A vampire was killed by a human. at postion (7, 4)
+Vampire: Health=100, Age=0, Position=(7, 4)
+A human ate food. at postion (2, 7)
+Simulation finished.
+---------Remaining-----------
+Humans:
+5
+--------------------
+Vampires:
+12
+--------------------
+Food:
+3
+--------------------
+Water:
+1
+--------------------
+Garlic:
+4
+---------Eaten-----------
+Eaten humans Human: Health=97, Age=26, Position=(7, 3)
+-------------------
+Eaten humans Human: Health=99, Age=34, Position=(3, 10)
+-------------------
+Eaten humans Human: Health=94, Age=14, Position=(6, 4)
+-------------------
+Eaten humans Human: Health=96, Age=37, Position=(5, 2)
+-------------------
+Eaten humans Human: Health=96, Age=44, Position=(7, 4)
+-------------------
+Eaten vampires Vampire: Health=100, Age=0, Position=(7, 3)
+Eaten vampires Vampire: Health=71, Age=0, Position=(10, 4)
+Eaten vampires Vampire: Health=100, Age=0, Position=(7, 4)
+---------TOTAL----------
+no of humans 5
+no of vampires 3
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 3), (4, 9), (3, 1), (5, 4), (4, 6), (5, 1), (9, 2), (0, 2), (0, 5), (2, 8), (7, 4), (7, 1), (4, 2), (3, 3), (5, 0), (5, 6), (3, 9), (5, 9), (9, 4), (8, 8), (0, 4), (2, 1), (2, 7), (6, 1), (7, 3), (6, 7), (3, 2), (4, 1), (3, 5), (9, 0), (8, 4), (8, 1), (0, 0), (8, 7), (1, 1), (2, 0), (2, 3), (2, 9), (2, 6)}
+Running simulation...
+food [(0, 4), (2, 1), (2, 7), (6, 1), (7, 3)]
+water [(6, 7), (3, 2), (4, 1), (3, 5), (9, 0)]
+garlic [(8, 4), (8, 1), (0, 0), (8, 7), (1, 1)]
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(3, 4), (9, 2), (5, 7), (8, 0), (8, 9), (8, 6), (0, 5), (1, 0), (1, 6), (7, 7), (4, 2), (5, 6), (4, 8), (3, 6), (8, 2), (9, 4), (0, 1), (0, 7), (2, 4), (8, 8), (0, 4), (7, 0), (6, 4), (6, 7), (7, 6), (3, 2), (4, 1), (4, 7), (3, 5), (5, 2), (9, 0), (5, 8), (9, 6), (2, 0), (1, 4), (2, 9), (7, 2), (6, 0), (6, 3)}
+Running simulation...
+food [(0, 4), (7, 0), (6, 4), (6, 7), (7, 6)]
+water [(3, 2), (4, 1), (4, 7), (3, 5), (5, 2)]
+garlic [(9, 0), (5, 8), (9, 6), (2, 0), (1, 4)]
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(3, 4), (4, 3), (3, 7), (8, 0), (9, 5), (9, 8), (2, 2), (1, 0), (2, 5), (1, 3), (6, 2), (7, 1), (7, 7), (6, 8), (4, 2), (5, 0), (8, 2), (5, 9), (9, 1), (1, 2), (0, 4), (2, 7), (6, 1), (7, 0), (7, 3), (7, 9), (6, 7), (7, 6), (5, 2), (5, 5), (8, 4), (8, 1), (9, 6), (0, 3), (0, 9), (1, 7), (2, 6), (6, 0), (6, 9)}
+Running simulation...
+food [(0, 4), (2, 7), (6, 1), (7, 0), (7, 3)]
+water [(7, 9), (6, 7), (7, 6), (5, 2), (5, 5)]
+garlic [(8, 4), (8, 1), (9, 6), (0, 3), (0, 9)]
+CSV file created successfully
+--------------------
+Timestep: 1
+--------------------
+A human drank water. at postion (7, 6) with and now has health 100
+A human drank water. at postion (5, 5) with and now has health 100
+--------------------
+Timestep: 2
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (9, 7)
+Human: Health=99, Age=30, Position=(9, 7)
+A vampire was killed by a human. at postion (9, 7)
+Vampire: Health=100, Age=0, Position=(9, 7)
+Two vampires bit each other. at postion (9, 7)
+A human drank water. at postion (7, 9) with and now has health 100
+--------------------
+Timestep: 3
+--------------------
+A human ate food. at postion (6, 1)
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (8, 3)
+Human: Health=96, Age=42, Position=(8, 3)
+Two vampires bit each other. at postion (8, 3)
+A human drank water. at postion (6, 7) with and now has health 100
+--------------------
+Timestep: 5
+--------------------
+Two vampires bit each other. at postion (10, 5)
+--------------------
+Timestep: 6
+--------------------
+--------------------
+Timestep: 7
+--------------------
+A vampire was killed by a human. at postion (2, 0)
+Vampire: Health=20, Age=0, Position=(2, 0)
+new no of vampires 11
+A human was bitten by a vampire. at postion (3, 1)
+Human: Health=93, Age=11, Position=(3, 1)
+Two vampires bit each other. at postion (3, 1)
+--------------------
+Timestep: 8
+--------------------
+A vampire was killed by a human. at postion (8, 4)
+Vampire: Health=37, Age=0, Position=(8, 4)
+Two vampires bit each other. at postion (9, 5)
+A human ate garlic. at postion (8, 4)
+--------------------
+Timestep: 9
+--------------------
+A vampire was killed by a human. at postion (9, 5)
+Vampire: Health=62, Age=0, Position=(9, 5)
+new no of vampires 10
+A human was bitten by a vampire. at postion (7, 7)
+Human: Health=91, Age=27, Position=(7, 7)
+A vampire was killed by a human. at postion (7, 7)
+Vampire: Health=100, Age=0, Position=(7, 7)
+A human ate garlic. at postion (9, 6)
+--------------------
+Timestep: 10
+--------------------
+Simulation finished.
+---------Remaining-----------
+Humans:
+6
+--------------------
+Vampires:
+9
+--------------------
+Food:
+4
+--------------------
+Water:
+1
+--------------------
+Garlic:
+3
+---------Eaten-----------
+Eaten humans Human: Health=99, Age=30, Position=(9, 7)
+-------------------
+Eaten humans Human: Health=96, Age=42, Position=(8, 3)
+-------------------
+Eaten humans Human: Health=93, Age=11, Position=(3, 1)
+-------------------
+Eaten humans Human: Health=91, Age=27, Position=(7, 7)
+-------------------
+Eaten vampires Vampire: Health=100, Age=0, Position=(9, 7)
+Eaten vampires Vampire: Health=20, Age=0, Position=(2, 0)
+Eaten vampires Vampire: Health=37, Age=0, Position=(8, 4)
+Eaten vampires Vampire: Health=62, Age=0, Position=(9, 5)
+Eaten vampires Vampire: Health=100, Age=0, Position=(7, 7)
+---------TOTAL----------
+no of humans 4
+no of vampires 5
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (4, 3), (3, 7), (5, 4), (5, 7), (8, 0), (8, 9), (9, 8), (0, 5), (2, 2), (1, 0), (1, 9), (6, 2), (7, 7), (4, 5), (3, 9), (5, 6), (4, 8), (5, 9), (9, 1), (8, 5), (9, 4), (8, 8), (1, 8), (6, 4), (6, 7), (3, 5), (5, 2), (4, 4), (9, 0), (5, 5), (9, 9), (1, 1), (1, 4), (2, 3), (6, 6), (6, 9), (7, 8)}
+Running simulation...
+food [(8, 5), (9, 4), (8, 8), (1, 8), (6, 4)]
+water [(6, 7), (3, 5), (5, 2), (4, 4), (9, 0)]
+garlic [(5, 5), (9, 9), (1, 1), (1, 4), (2, 3)]
+False
+CSV file created successfully
+--------------------
+Timestep: 1
+--------------------
+A human drank water. at postion (9, 0) with and now has health 100
+A human ate garlic. at postion (1, 4)
+--------------------
+Timestep: 2
+--------------------
+A vampire was killed by a human. at postion (9, 10)
+Vampire: Health=18, Age=0, Position=(9, 10)
+A human ate garlic. at postion (1, 1)
+--------------------
+Timestep: 3
+--------------------
+A vampire was killed by a human. at postion (3, 3)
+Vampire: Health=93, Age=0, Position=(3, 3)
+Two vampires bit each other. at postion (3, 8)
+A human drank water. at postion (5, 2) with and now has health 100
+--------------------
+Timestep: 4
+--------------------
+Both humans helped each other. at postion (6, 1)
+Both humans helped each other. at postion (6, 1)
+One human used another. at postion (6, 1)
+Two vampires bit each other. at postion (7, 10)
+--------------------
+Timestep: 5
+--------------------
+Both humans helped each other. at postion (10, 5)
+A human drank water. at postion (3, 5) with and now has health 100
+A human ate garlic. at postion (2, 3)
+--------------------
+Timestep: 6
+--------------------
+A vampire was killed by a human. at postion (10, 0)
+Vampire: Health=64, Age=0, Position=(10, 0)
+--------------------
+Timestep: 7
+--------------------
+Both humans helped each other. at postion (10, 7)
+One human used another. at postion (3, 6)
+--------------------
+Timestep: 8
+--------------------
+A human ate food. at postion (8, 5)
+A human drank water. at postion (6, 7) with and now has health 100
+--------------------
+Timestep: 9
+--------------------
+new no of vampires 8
+A human was bitten by a vampire. at postion (0, 1)
+Human: Health=81, Age=44, Position=(0, 1)
+One human used another. at postion (2, 3)
+Two vampires bit each other. at postion (0, 1)
+A human drank water. at postion (4, 4) with and now has health 100
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 9
+A human was bitten by a vampire. at postion (3, 0)
+Human: Health=99, Age=49, Position=(3, 0)
+Both humans helped each other. at postion (8, 1)
+Two vampires bit each other. at postion (3, 0)
+Simulation finished.
+---------Remaining-----------
+Humans:
+8
+--------------------
+Vampires:
+9
+--------------------
+Food:
+4
+--------------------
+Water:
+0
+--------------------
+Garlic:
+2
+---------Eaten-----------
+Eaten humans Human: Health=81, Age=44, Position=(0, 1)
+-------------------
+Eaten humans Human: Health=99, Age=49, Position=(3, 0)
+-------------------
+Eaten vampires Vampire: Health=18, Age=0, Position=(9, 10)
+Eaten vampires Vampire: Health=93, Age=0, Position=(3, 3)
+Eaten vampires Vampire: Health=64, Age=0, Position=(10, 0)
+---------TOTAL----------
+no of humans 2
+no of vampires 3
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (3, 4), (3, 1), (3, 7), (8, 0), (8, 9), (0, 8), (7, 4), (6, 2), (6, 8), (3, 0), (4, 5), (5, 0), (4, 8), (3, 6), (8, 2), (0, 1), (0, 7), (2, 1), (2, 7), (1, 8), (6, 4), (7, 3), (6, 7), (7, 6), (4, 7), (4, 4), (8, 4), (9, 3), (5, 8), (9, 9), (2, 0), (0, 9), (1, 4), (6, 6), (7, 5)}
+Running simulation...
+food [(1, 8), (6, 4), (7, 3), (6, 7), (7, 6)]
+water [(4, 7), (4, 4), (8, 4), (9, 3), (5, 8)]
+garlic [(9, 9), (2, 0), (0, 9), (1, 4), (6, 6)]
+--------------------
+Timestep: 1
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (8, 5)
+Human: Health=99, Age=34, Position=(8, 5)
+A vampire was killed by a human. at postion (8, 5)
+Vampire: Health=100, Age=0, Position=(8, 5)
+A human ate food. at postion (6, 4)
+A human ate garlic. at postion (2, 0)
+--------------------
+Timestep: 2
+--------------------
+A vampire was killed by a human. at postion (5, 3)
+Vampire: Health=19, Age=0, Position=(5, 3)
+A vampire was killed by a human. at postion (5, 4)
+Vampire: Health=23, Age=0, Position=(5, 4)
+A human ate food. at postion (6, 7)
+A human ate food. at postion (7, 6)
+--------------------
+Timestep: 3
+--------------------
+Both humans helped each other. at postion (4, 5)
+Both humans helped each other. at postion (6, 7)
+Two vampires bit each other. at postion (4, 3)
+--------------------
+Timestep: 4
+--------------------
+A vampire was killed by a human. at postion (3, 7)
+Vampire: Health=92, Age=0, Position=(3, 7)
+--------------------
+Timestep: 5
+--------------------
+One human used another. at postion (2, 7)
+A human drank water. at postion (9, 3) with and now has health 100
+--------------------
+Timestep: 6
+--------------------
+A human ate garlic. at postion (0, 9)
+--------------------
+Timestep: 7
+--------------------
+Both humans helped each other. at postion (5, 10)
+Two vampires bit each other. at postion (9, 2)
+--------------------
+Timestep: 8
+--------------------
+A vampire was killed by a human. at postion (5, 3)
+Vampire: Health=53, Age=0, Position=(5, 3)
+A human ate garlic. at postion (6, 6)
+A human ate garlic. at postion (9, 9)
+--------------------
+Timestep: 9
+--------------------
+Both humans helped each other. at postion (7, 7)
+--------------------
+Timestep: 10
+--------------------
+Simulation finished.
+---------Remaining-----------
+Humans:
+9
+--------------------
+Vampires:
+6
+--------------------
+Food:
+2
+--------------------
+Water:
+4
+--------------------
+Garlic:
+1
+---------Eaten-----------
+Eaten humans Human: Health=99, Age=34, Position=(8, 5)
+-------------------
+Eaten vampires Vampire: Health=100, Age=0, Position=(8, 5)
+Eaten vampires Vampire: Health=19, Age=0, Position=(5, 3)
+Eaten vampires Vampire: Health=23, Age=0, Position=(5, 4)
+Eaten vampires Vampire: Health=92, Age=0, Position=(3, 7)
+Eaten vampires Vampire: Health=53, Age=0, Position=(5, 3)
+---------TOTAL----------
+no of humans 1
+no of vampires 5
+False
+CSV file created successfully
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (4, 3), (4, 9), (3, 7), (5, 1), (8, 0), (9, 2), (8, 6), (1, 0), (1, 6), (2, 5), (1, 9), (2, 8), (7, 7), (6, 8), (4, 5), (3, 3), (4, 8), (5, 9), (8, 5), (9, 4), (0, 7), (2, 4), (6, 1), (1, 8), (7, 9), (3, 2), (4, 1), (4, 4), (5, 5), (8, 1), (1, 1), (0, 3), (1, 4), (2, 9), (7, 2), (6, 9)}
+Running simulation...
+food [(9, 4), (0, 7), (2, 4), (6, 1), (1, 8)]
+water [(7, 9), (3, 2), (4, 1), (4, 4), (5, 5)]
+garlic [(8, 1), (1, 1), (0, 3), (1, 4), (2, 9)]
+--------------------
+Timestep: 1
+--------------------
+A human drank water. at postion (4, 1) with and now has health 100
+--------------------
+Timestep: 2
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (3, 2)
+Human: Health=98, Age=21, Position=(3, 2)
+Both humans helped each other. at postion (3, 5)
+Two vampires bit each other. at postion (3, 2)
+Two vampires bit each other. at postion (5, 0)
+A human drank water. at postion (4, 4) with and now has health 100
+--------------------
+Timestep: 3
+--------------------
+Two vampires bit each other. at postion (7, 1)
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (3, 8)
+Human: Health=106, Age=18, Position=(3, 8)
+One human used another. at postion (3, 2)
+Two vampires bit each other. at postion (3, 8)
+Two vampires bit each other. at postion (3, 8)
+Two vampires bit each other. at postion (3, 8)
+A human drank water. at postion (3, 2) with and now has health 100
+--------------------
+Timestep: 5
+--------------------
+Two vampires bit each other. at postion (8, 8)
+--------------------
+Timestep: 6
+--------------------
+Two vampires bit each other. at postion (5, 9)
+--------------------
+Timestep: 7
+--------------------
+Both humans helped each other. at postion (2, 5)
+Two vampires bit each other. at postion (2, 10)
+A human ate food. at postion (9, 4)
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 13
+A human was bitten by a vampire. at postion (5, 1)
+Human: Health=99, Age=13, Position=(5, 1)
+A vampire was killed by a human. at postion (5, 1)
+Vampire: Health=100, Age=0, Position=(5, 1)
+Two vampires bit each other. at postion (10, 10)
+--------------------
+Timestep: 9
+--------------------
+A vampire was killed by a human. at postion (6, 2)
+Vampire: Health=14, Age=0, Position=(6, 2)
+A human drank water. at postion (7, 9) with and now has health 100
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (7, 8)
+Human: Health=92, Age=10, Position=(7, 8)
+Two vampires bit each other. at postion (7, 8)
+A human ate garlic. at postion (1, 1)
+Simulation finished.
+---------Remaining-----------
+Humans:
+6
+--------------------
+Vampires:
+12
+--------------------
+Food:
+4
+--------------------
+Water:
+1
+--------------------
+Garlic:
+4
+---------Eaten-----------
+Eaten humans Human: Health=98, Age=21, Position=(3, 2)
+-------------------
+Eaten humans Human: Health=106, Age=18, Position=(3, 8)
+-------------------
+Eaten humans Human: Health=99, Age=13, Position=(5, 1)
+-------------------
+Eaten humans Human: Health=92, Age=10, Position=(7, 8)
+-------------------
+Eaten vampires Vampire: Health=100, Age=0, Position=(5, 1)
+Eaten vampires Vampire: Health=14, Age=0, Position=(6, 2)
+---------TOTAL----------
+no of humans 4
+no of vampires 2
+False
+CSV file created successfully
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (3, 1), (9, 2), (5, 1), (5, 7), (9, 5), (8, 3), (9, 8), (0, 5), (8, 6), (1, 0), (0, 8), (1, 3), (1, 9), (7, 4), (6, 5), (4, 2), (3, 0), (3, 3), (5, 6), (3, 6), (8, 5), (0, 1), (0, 7), (0, 4), (2, 7), (1, 8), (7, 0), (6, 4), (6, 7), (7, 6), (3, 2), (4, 7), (9, 3), (0, 0), (8, 7), (1, 1), (9, 6), (2, 0), (0, 9), (1, 4), (0, 6), (1, 7), (2, 6), (7, 2), (6, 0), (7, 5), (6, 3)}
+Running simulation...
+food [(3, 2), (4, 7), (9, 3), (0, 0), (8, 7)]
+water [(1, 1), (9, 6), (2, 0), (0, 9), (1, 4)]
+garlic [(0, 6), (1, 7), (2, 6), (7, 2), (6, 0)]
+--------------------
+Timestep: 1
+--------------------
+Both humans helped each other. at postion (0, 1)
+Both humans helped each other. at postion (0, 6)
+One human used another. at postion (3, 3)
+Both humans helped each other. at postion (3, 5)
+Both humans helped each other. at postion (2, 5)
+A human drank water. at postion (9, 6) with and now has health 100
+A human drank water. at postion (1, 1) with and now has health 100
+A human ate garlic. at postion (6, 0)
+A human ate garlic. at postion (7, 2)
+A human ate garlic. at postion (0, 6)
+--------------------
+Timestep: 2
+--------------------
+One human used another. at postion (5, 6)
+Both humans helped each other. at postion (2, 5)
+A human ate food. at postion (4, 7)
+A human ate food. at postion (3, 2)
+A human drank water. at postion (1, 4) with and now has health 100
+A human drank water. at postion (2, 0) with and now has health 100
+--------------------
+Timestep: 3
+--------------------
+Both humans helped each other. at postion (3, 5)
+Both humans helped each other. at postion (3, 2)
+Both humans helped each other. at postion (6, 3)
+A human drank water. at postion (0, 9) with and now has health 100
+A human ate garlic. at postion (2, 6)
+--------------------
+Timestep: 4
+--------------------
+One human used another. at postion (5, 2)
+One human used another. at postion (2, 4)
+One human used another. at postion (5, 4)
+Both humans helped each other. at postion (5, 1)
+--------------------
+Timestep: 5
+--------------------
+Both humans helped each other. at postion (9, 5)
+One human used another. at postion (6, 9)
+One human used another. at postion (7, 8)
+--------------------
+Timestep: 6
+--------------------
+Both humans helped each other. at postion (5, 1)
+--------------------
+Timestep: 7
+--------------------
+Both humans helped each other. at postion (3, 2)
+One human used another. at postion (6, 6)
+One human used another. at postion (1, 5)
+Both humans helped each other. at postion (5, 1)
+Both humans helped each other. at postion (5, 1)
+One human used another. at postion (5, 1)
+--------------------
+Timestep: 8
+--------------------
+One human used another. at postion (5, 2)
+Both humans helped each other. at postion (5, 2)
+One human used another. at postion (5, 2)
+Both humans helped each other. at postion (5, 2)
+One human used another. at postion (5, 2)
+Both humans helped each other. at postion (5, 2)
+A human ate food. at postion (8, 7)
+A human ate garlic. at postion (1, 7)
+--------------------
+Timestep: 9
+--------------------
+Both humans helped each other. at postion (4, 4)
+Both humans helped each other. at postion (7, 9)
+A human ate food. at postion (0, 0)
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 2
+A human was bitten by a vampire. at postion (4, 2)
+Human: Health=81, Age=36, Position=(4, 2)
+Both humans helped each other. at postion (9, 6)
+One human used another. at postion (7, 6)
+Two vampires bit each other. at postion (4, 2)
+Simulation finished.
+---------Remaining-----------
+Humans:
+29
+--------------------
+Vampires:
+2
+--------------------
+Food:
+1
+--------------------
+Water:
+0
+--------------------
+Garlic:
+0
+---------Eaten-----------
+Eaten humans Human: Health=81, Age=36, Position=(4, 2)
+-------------------
+---------TOTAL----------
+no of humans 1
+no of vampires 0
+False
+I/O error
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (3, 4), (4, 9), (3, 7), (9, 2), (5, 7), (8, 0), (9, 8), (2, 2), (1, 6), (0, 8), (2, 8), (6, 2), (7, 1), (6, 5), (6, 8), (4, 5), (3, 3), (5, 6), (8, 2), (9, 7), (8, 5), (9, 4), (0, 1), (0, 7), (8, 8), (1, 2), (2, 1), (2, 7), (1, 8), (7, 0), (6, 4), (7, 3), (6, 7), (7, 6), (4, 1), (4, 4), (9, 0), (5, 5), (8, 4), (9, 3), (0, 0), (9, 6), (1, 1), (0, 3), (0, 6), (2, 3), (2, 9), (7, 2), (6, 3), (7, 8)}
+Running simulation...
+food [(7, 3), (6, 7), (7, 6), (4, 1), (4, 4)]
+water [(9, 0), (5, 5), (8, 4), (9, 3), (0, 0)]
+garlic [(9, 6), (1, 1), (0, 3), (0, 6), (2, 3)]
+--------------------
+Timestep: 1
+--------------------
+One human used another. at postion (8, 7)
+Both humans helped each other. at postion (8, 4)
+A human ate food. at postion (7, 6)
+A human drank water. at postion (8, 4) with and now has health 100
+A human ate garlic. at postion (9, 6)
+A human ate garlic. at postion (0, 3)
+--------------------
+Timestep: 2
+--------------------
+Both humans helped each other. at postion (6, 2)
+One human used another. at postion (6, 4)
+Both humans helped each other. at postion (4, 4)
+A human ate food. at postion (4, 4)
+A human drank water. at postion (0, 0) with and now has health 100
+A human drank water. at postion (9, 0) with and now has health 100
+--------------------
+Timestep: 3
+--------------------
+Both humans helped each other. at postion (4, 5)
+Both humans helped each other. at postion (9, 1)
+A human ate food. at postion (6, 7)
+--------------------
+Timestep: 4
+--------------------
+One human used another. at postion (6, 6)
+Both humans helped each other. at postion (8, 3)
+One human used another. at postion (2, 5)
+Both humans helped each other. at postion (1, 7)
+One human used another. at postion (6, 4)
+A human ate garlic. at postion (0, 6)
+--------------------
+Timestep: 5
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (5, 3)
+Human: Health=95, Age=13, Position=(5, 3)
+Both humans helped each other. at postion (5, 4)
+Both humans helped each other. at postion (5, 8)
+One human used another. at postion (2, 6)
+Two vampires bit each other. at postion (5, 3)
+A human ate food. at postion (7, 3)
+A human drank water. at postion (9, 3) with and now has health 100
+--------------------
+Timestep: 6
+--------------------
+Both humans helped each other. at postion (2, 10)
+A human ate food. at postion (4, 1)
+--------------------
+Timestep: 7
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (5, 8)
+Human: Health=103, Age=23, Position=(5, 8)
+A vampire was killed by a human. at postion (5, 8)
+Vampire: Health=100, Age=0, Position=(5, 8)
+Both humans helped each other. at postion (3, 7)
+Both humans helped each other. at postion (10, 4)
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (0, 6)
+Human: Health=92, Age=20, Position=(0, 6)
+A vampire was killed by a human. at postion (0, 6)
+Vampire: Health=100, Age=0, Position=(0, 6)
+Both humans helped each other. at postion (5, 5)
+One human used another. at postion (6, 9)
+A human drank water. at postion (5, 5) with and now has health 100
+--------------------
+Timestep: 9
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (7, 8)
+Human: Health=83, Age=26, Position=(7, 8)
+Both humans helped each other. at postion (5, 2)
+Both humans helped each other. at postion (5, 2)
+Both humans helped each other. at postion (5, 2)
+One human used another. at postion (5, 2)
+One human used another. at postion (5, 2)
+Both humans helped each other. at postion (3, 8)
+Both humans helped each other. at postion (5, 2)
+Two vampires bit each other. at postion (7, 8)
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 5
+A human was bitten by a vampire. at postion (2, 7)
+Human: Health=94, Age=41, Position=(2, 7)
+A vampire was killed by a human. at postion (2, 7)
+Vampire: Health=100, Age=0, Position=(2, 7)
+Both humans helped each other. at postion (5, 4)
+Both humans helped each other. at postion (5, 5)
+Both humans helped each other. at postion (5, 5)
+Both humans helped each other. at postion (5, 5)
+A human ate garlic. at postion (1, 1)
+Simulation finished.
+---------Remaining-----------
+Humans:
+25
+--------------------
+Vampires:
+4
+--------------------
+Food:
+0
+--------------------
+Water:
+0
+--------------------
+Garlic:
+1
+---------Eaten-----------
+Eaten humans Human: Health=95, Age=13, Position=(5, 3)
+-------------------
+Eaten humans Human: Health=103, Age=23, Position=(5, 8)
+-------------------
+Eaten humans Human: Health=92, Age=20, Position=(0, 6)
+-------------------
+Eaten humans Human: Health=83, Age=26, Position=(7, 8)
+-------------------
+Eaten humans Human: Health=94, Age=41, Position=(2, 7)
+-------------------
+Eaten vampires Vampire: Health=100, Age=0, Position=(5, 8)
+Eaten vampires Vampire: Health=100, Age=0, Position=(0, 6)
+Eaten vampires Vampire: Health=100, Age=0, Position=(2, 7)
+---------TOTAL----------
+no of humans 5
+no of vampires 3
+False
+I/O error
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (3, 4), (4, 3), (4, 9), (5, 7), (8, 0), (9, 5), (9, 8), (8, 6), (0, 5), (1, 0), (2, 2), (0, 8), (2, 5), (1, 9), (7, 4), (6, 2), (7, 7), (3, 0), (4, 5), (3, 3), (3, 9), (5, 6), (5, 0), (4, 8), (8, 2), (9, 1), (9, 7), (9, 4), (2, 4), (0, 4), (1, 5), (6, 1), (1, 8), (7, 0), (6, 4), (7, 9), (6, 7), (7, 6), (3, 2), (4, 7), (4, 4), (9, 0), (9, 3), (9, 9), (8, 7), (9, 6), (1, 7), (2, 6), (6, 0), (6, 3), (7, 8)}
+Running simulation...
+food [(1, 8), (7, 0), (6, 4), (7, 9), (6, 7)]
+water [(7, 6), (3, 2), (4, 7), (4, 4), (9, 0)]
+garlic [(9, 3), (9, 9), (8, 7), (9, 6), (1, 7)]
+--------------------
+Timestep: 1
+--------------------
+A vampire was killed by a human. at postion (0, 3)
+Vampire: Health=30, Age=0, Position=(0, 3)
+Both humans helped each other. at postion (5, 5)
+One human used another. at postion (5, 5)
+Both humans helped each other. at postion (5, 5)
+One human used another. at postion (4, 8)
+One human used another. at postion (2, 1)
+Both humans helped each other. at postion (2, 3)
+A human ate food. at postion (6, 4)
+A human ate garlic. at postion (9, 3)
+--------------------
+Timestep: 2
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (0, 3)
+Human: Health=98, Age=25, Position=(0, 3)
+Both humans helped each other. at postion (0, 5)
+One human used another. at postion (5, 6)
+Both humans helped each other. at postion (5, 6)
+One human used another. at postion (5, 6)
+Both humans helped each other. at postion (4, 5)
+Two vampires bit each other. at postion (0, 3)
+A human drank water. at postion (9, 0) with and now has health 100
+A human ate garlic. at postion (9, 6)
+--------------------
+Timestep: 3
+--------------------
+A vampire was killed by a human. at postion (7, 8)
+Vampire: Health=37, Age=0, Position=(7, 8)
+Both humans helped each other. at postion (3, 9)
+Both humans helped each other. at postion (7, 8)
+Both humans helped each other. at postion (10, 3)
+A human ate food. at postion (1, 8)
+A human drank water. at postion (4, 7) with and now has health 100
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (3, 1)
+Human: Health=98, Age=16, Position=(3, 1)
+A vampire was killed by a human. at postion (3, 1)
+Vampire: Health=100, Age=0, Position=(3, 1)
+Both humans helped each other. at postion (2, 9)
+Both humans helped each other. at postion (5, 7)
+Both humans helped each other. at postion (5, 7)
+Both humans helped each other. at postion (6, 10)
+Both humans helped each other. at postion (5, 6)
+Both humans helped each other. at postion (6, 3)
+One human used another. at postion (5, 7)
+One human used another. at postion (10, 5)
+Both humans helped each other. at postion (10, 5)
+One human used another. at postion (10, 5)
+A human ate food. at postion (7, 0)
+A human drank water. at postion (4, 4) with and now has health 100
+--------------------
+Timestep: 5
+--------------------
+One human used another. at postion (9, 10)
+One human used another. at postion (9, 1)
+Both humans helped each other. at postion (8, 6)
+A human ate food. at postion (7, 9)
+A human ate garlic. at postion (9, 9)
+--------------------
+Timestep: 6
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (0, 6)
+Human: Health=85, Age=44, Position=(0, 6)
+A vampire was killed by a human. at postion (0, 6)
+Vampire: Health=100, Age=0, Position=(0, 6)
+Both humans helped each other. at postion (6, 5)
+Both humans helped each other. at postion (7, 4)
+One human used another. at postion (7, 4)
+Both humans helped each other. at postion (7, 4)
+Both humans helped each other. at postion (9, 5)
+A human ate garlic. at postion (8, 7)
+--------------------
+Timestep: 7
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (8, 2)
+Human: Health=99, Age=26, Position=(8, 2)
+One human used another. at postion (3, 3)
+One human used another. at postion (1, 2)
+Two vampires bit each other. at postion (8, 2)
+Two vampires bit each other. at postion (8, 2)
+Two vampires bit each other. at postion (8, 2)
+A human ate food. at postion (6, 7)
+A human drank water. at postion (3, 2) with and now has health 100
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (3, 6)
+Human: Health=99, Age=28, Position=(3, 6)
+One human used another. at postion (10, 2)
+Two vampires bit each other. at postion (3, 6)
+--------------------
+Timestep: 9
+--------------------
+new no of vampires 5
+A human was bitten by a vampire. at postion (9, 6)
+Human: Health=91, Age=38, Position=(9, 6)
+A vampire was killed by a human. at postion (9, 6)
+Vampire: Health=100, Age=0, Position=(9, 6)
+Both humans helped each other. at postion (9, 9)
+Both humans helped each other. at postion (3, 8)
+A human drank water. at postion (7, 6) with and now has health 100
+A human ate garlic. at postion (1, 7)
+--------------------
+Timestep: 10
+--------------------
+A vampire was killed by a human. at postion (0, 9)
+Vampire: Health=80, Age=0, Position=(0, 9)
+One human used another. at postion (7, 5)
+One human used another. at postion (7, 5)
+Both humans helped each other. at postion (7, 5)
+Both humans helped each other. at postion (8, 3)
+Both humans helped each other. at postion (6, 8)
+Simulation finished.
+---------Remaining-----------
+Humans:
+24
+--------------------
+Vampires:
+3
+--------------------
+Food:
+0
+--------------------
+Water:
+0
+--------------------
+Garlic:
+0
+---------Eaten-----------
+Eaten humans Human: Health=98, Age=25, Position=(0, 3)
+-------------------
+Eaten humans Human: Health=98, Age=16, Position=(3, 1)
+-------------------
+Eaten humans Human: Health=85, Age=44, Position=(0, 6)
+-------------------
+Eaten humans Human: Health=99, Age=26, Position=(8, 2)
+-------------------
+Eaten humans Human: Health=99, Age=28, Position=(3, 6)
+-------------------
+Eaten humans Human: Health=91, Age=38, Position=(9, 6)
+-------------------
+Eaten vampires Vampire: Health=30, Age=0, Position=(0, 3)
+Eaten vampires Vampire: Health=37, Age=0, Position=(7, 8)
+Eaten vampires Vampire: Health=100, Age=0, Position=(3, 1)
+Eaten vampires Vampire: Health=100, Age=0, Position=(0, 6)
+Eaten vampires Vampire: Health=100, Age=0, Position=(9, 6)
+Eaten vampires Vampire: Health=80, Age=0, Position=(0, 9)
+---------TOTAL----------
+no of humans 6
+no of vampires 6
+False
+I/O error
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (3, 4), (4, 3), (3, 1), (3, 7), (5, 4), (4, 6), (5, 1), (5, 7), (9, 5), (0, 2), (9, 8), (2, 2), (1, 0), (1, 3), (2, 8), (6, 2), (7, 1), (6, 8), (4, 2), (3, 0), (5, 0), (5, 6), (4, 8), (5, 3), (8, 2), (5, 9), (8, 5), (0, 1), (0, 7), (2, 7), (1, 5), (1, 8), (3, 2), (4, 1), (4, 7), (3, 5), (5, 2), (3, 8), (5, 5), (8, 4), (5, 8), (9, 6), (1, 1), (2, 0), (0, 6), (2, 3), (1, 7), (2, 6), (7, 2), (6, 6), (6, 3)}
+Running simulation...
+food [(4, 1), (4, 7), (3, 5), (5, 2), (3, 8)]
+water [(5, 5), (8, 4), (5, 8), (9, 6), (1, 1)]
+garlic [(2, 0), (0, 6), (2, 3), (1, 7), (2, 6)]
+--------------------
+Timestep: 1
+--------------------
+A vampire was killed by a human. at postion (2, 4)
+Vampire: Health=96, Age=0, Position=(2, 4)
+Both humans helped each other. at postion (7, 5)
+One human used another. at postion (8, 8)
+A human ate food. at postion (4, 7)
+A human ate food. at postion (5, 2)
+A human ate food. at postion (4, 1)
+A human ate food. at postion (3, 5)
+A human ate food. at postion (3, 8)
+A human drank water. at postion (1, 1) with and now has health 100
+A human drank water. at postion (5, 5) with and now has health 100
+A human drank water. at postion (9, 6) with and now has health 100
+A human ate garlic. at postion (2, 3)
+--------------------
+Timestep: 2
+--------------------
+One human used another. at postion (1, 4)
+Both humans helped each other. at postion (1, 4)
+One human used another. at postion (7, 7)
+Both humans helped each other. at postion (8, 7)
+One human used another. at postion (1, 4)
+One human used another. at postion (10, 4)
+--------------------
+Timestep: 3
+--------------------
+A vampire was killed by a human. at postion (6, 5)
+Vampire: Health=67, Age=0, Position=(6, 5)
+Both humans helped each other. at postion (2, 5)
+Both humans helped each other. at postion (10, 5)
+Both humans helped each other. at postion (2, 4)
+Both humans helped each other. at postion (9, 5)
+A human ate garlic. at postion (2, 6)
+A human ate garlic. at postion (0, 6)
+--------------------
+Timestep: 4
+--------------------
+Both humans helped each other. at postion (3, 1)
+One human used another. at postion (9, 6)
+Both humans helped each other. at postion (2, 0)
+Both humans helped each other. at postion (8, 7)
+A human ate garlic. at postion (1, 7)
+A human ate garlic. at postion (2, 0)
+--------------------
+Timestep: 5
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (7, 8)
+Human: Health=95, Age=23, Position=(7, 8)
+Both humans helped each other. at postion (6, 5)
+One human used another. at postion (10, 5)
+Two vampires bit each other. at postion (7, 8)
+A human drank water. at postion (5, 8) with and now has health 100
+--------------------
+Timestep: 6
+--------------------
+Both humans helped each other. at postion (3, 3)
+Both humans helped each other. at postion (0, 1)
+Both humans helped each other. at postion (6, 5)
+--------------------
+Timestep: 7
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (4, 9)
+Human: Health=73, Age=41, Position=(4, 9)
+A vampire was killed by a human. at postion (4, 9)
+Vampire: Health=100, Age=0, Position=(4, 9)
+A human drank water. at postion (8, 4) with and now has health 100
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (4, 3), (4, 9), (3, 1), (5, 1), (9, 2), (8, 0), (8, 9), (8, 6), (2, 2), (1, 0), (2, 5), (1, 9), (7, 1), (7, 7), (3, 0), (3, 3), (5, 3), (8, 2), (9, 4), (0, 1), (8, 8), (7, 3), (7, 9), (5, 2), (4, 4), (9, 0), (8, 7), (1, 1), (0, 3), (2, 0), (0, 9), (0, 6), (1, 7), (7, 2), (6, 0), (6, 9), (7, 8)}
+Running simulation...
+food [(0, 1), (8, 8), (7, 3), (7, 9), (5, 2)]
+water [(4, 4), (9, 0), (8, 7), (1, 1), (0, 3)]
+garlic [(2, 0), (0, 9), (0, 6), (1, 7), (7, 2)]
+--------------------
+Timestep: 1
+--------------------
+A human ate food. at postion (7, 3)
+--------------------
+Timestep: 2
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (7, 9)
+Human: Health=98, Age=15, Position=(7, 9)
+Two vampires bit each other. at postion (7, 9)
+A human drank water. at postion (1, 1) with and now has health 100
+--------------------
+Timestep: 3
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (0, 6)
+Human: Health=97, Age=40, Position=(0, 6)
+Two vampires bit each other. at postion (7, 8)
+Two vampires bit each other. at postion (0, 6)
+A human ate garlic. at postion (1, 7)
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 13
+A human was bitten by a vampire. at postion (4, 3)
+Human: Health=98, Age=32, Position=(4, 3)
+Two vampires bit each other. at postion (4, 3)
+Two vampires bit each other. at postion (4, 3)
+Two vampires bit each other. at postion (4, 3)
+--------------------
+Timestep: 5
+--------------------
+--------------------
+Timestep: 6
+--------------------
+Both humans helped each other. at postion (9, 5)
+--------------------
+Timestep: 7
+--------------------
+A human ate garlic. at postion (7, 2)
+--------------------
+Timestep: 8
+--------------------
+Both humans helped each other. at postion (8, 4)
+--------------------
+Timestep: 9
+--------------------
+new no of vampires 14
+A human was bitten by a vampire. at postion (5, 2)
+Human: Health=92, Age=25, Position=(5, 2)
+Two vampires bit each other. at postion (5, 2)
+--------------------
+Timestep: 10
+--------------------
+Both humans helped each other. at postion (2, 7)
+Simulation finished.
+---------Remaining-----------
+Humans:
+6
+--------------------
+Vampires:
+14
+--------------------
+Food:
+4
+--------------------
+Water:
+4
+--------------------
+Garlic:
+3
+---------Eaten-----------
+Eaten humans Human: Health=98, Age=15, Position=(7, 9)
+-------------------
+Eaten humans Human: Health=97, Age=40, Position=(0, 6)
+-------------------
+Eaten humans Human: Health=98, Age=32, Position=(4, 3)
+-------------------
+Eaten humans Human: Health=92, Age=25, Position=(5, 2)
+-------------------
+---------TOTAL----------
+no of humans 4
+no of vampires 0
+False
+I/O error
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 9), (4, 6), (9, 5), (8, 3), (1, 6), (0, 8), (2, 5), (1, 9), (2, 8), (7, 4), (6, 2), (6, 5), (3, 9), (4, 8), (3, 6), (5, 3), (5, 9), (9, 7), (8, 5), (8, 8), (2, 4), (1, 2), (2, 1), (2, 7), (1, 5), (7, 0), (6, 4), (4, 1), (4, 7), (3, 8), (5, 5), (9, 3), (9, 9), (9, 6), (2, 3), (1, 7), (7, 2), (6, 6)}
+Running simulation...
+food [(2, 4), (1, 2), (2, 1), (2, 7), (1, 5)]
+water [(7, 0), (6, 4), (4, 1), (4, 7), (3, 8)]
+garlic [(5, 5), (9, 3), (9, 9), (9, 6), (2, 3)]
+--------------------
+Timestep: 1
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (6, 5)
+Human: Health=99, Age=31, Position=(6, 5)
+Two vampires bit each other. at postion (6, 5)
+A human ate food. at postion (2, 4)
+--------------------
+Timestep: 2
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (5, 6)
+Human: Health=98, Age=10, Position=(5, 6)
+A vampire was killed by a human. at postion (5, 6)
+Vampire: Health=100, Age=0, Position=(5, 6)
+Both humans helped each other. at postion (2, 7)
+A human ate food. at postion (2, 7)
+A human drank water. at postion (4, 7) with and now has health 100
+A human ate garlic. at postion (9, 9)
+--------------------
+Timestep: 3
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (8, 3)
+Human: Health=97, Age=42, Position=(8, 3)
+new no of vampires 13
+A human was bitten by a vampire. at postion (7, 6)
+Human: Health=97, Age=48, Position=(7, 6)
+Two vampires bit each other. at postion (7, 6)
+Two vampires bit each other. at postion (8, 3)
+A human drank water. at postion (6, 4) with and now has health 100
+--------------------
+Timestep: 4
+--------------------
+Two vampires bit each other. at postion (8, 4)
+--------------------
+Timestep: 5
+--------------------
+Two vampires bit each other. at postion (8, 8)
+--------------------
+Timestep: 6
+--------------------
+A human ate food. at postion (1, 5)
+--------------------
+Timestep: 7
+--------------------
+new no of vampires 14
+A human was bitten by a vampire. at postion (0, 7)
+Human: Health=103, Age=39, Position=(0, 7)
+Two vampires bit each other. at postion (0, 7)
+--------------------
+Timestep: 8
+--------------------
+Two vampires bit each other. at postion (6, 4)
+Two vampires bit each other. at postion (3, 3)
+A human drank water. at postion (4, 1) with and now has health 100
+--------------------
+Timestep: 9
+--------------------
+--------------------
+Timestep: 10
+--------------------
+A human ate garlic. at postion (5, 5)
+Simulation finished.
+---------Remaining-----------
+Humans:
+5
+--------------------
+Vampires:
+14
+--------------------
+Food:
+2
+--------------------
+Water:
+2
+--------------------
+Garlic:
+3
+---------Eaten-----------
+Eaten humans Human: Health=99, Age=31, Position=(6, 5)
+-------------------
+Eaten humans Human: Health=98, Age=10, Position=(5, 6)
+-------------------
+Eaten humans Human: Health=97, Age=42, Position=(8, 3)
+-------------------
+Eaten humans Human: Health=97, Age=48, Position=(7, 6)
+-------------------
+Eaten humans Human: Health=103, Age=39, Position=(0, 7)
+-------------------
+Eaten vampires Vampire: Health=100, Age=0, Position=(5, 6)
+---------TOTAL----------
+no of humans 5
+no of vampires 1
+writing csv
+False
+I/O error
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 3), (3, 7), (9, 2), (5, 7), (8, 0), (9, 5), (8, 9), (9, 8), (8, 6), (1, 0), (1, 9), (5, 0), (4, 8), (3, 6), (5, 3), (9, 7), (0, 1), (8, 8), (2, 7), (1, 5), (7, 0), (1, 8), (7, 9), (3, 2), (4, 4), (3, 8), (8, 4), (9, 3), (8, 1), (9, 6), (2, 0), (0, 6), (2, 3), (2, 9), (2, 6), (7, 5), (6, 3), (6, 9), (7, 8)}
+Running simulation...
+food [(7, 0), (1, 8), (7, 9), (3, 2), (4, 4)]
+water [(3, 8), (8, 4), (9, 3), (8, 1), (9, 6)]
+garlic [(2, 0), (0, 6), (2, 3), (2, 9), (2, 6)]
+--------------------
+Timestep: 1
+--------------------
+Two vampires bit each other. at postion (9, 6)
+Two vampires bit each other. at postion (9, 6)
+Two vampires bit each other. at postion (9, 6)
+A human drank water. at postion (8, 1) with and now has health 100
+--------------------
+Timestep: 2
+--------------------
+Both humans helped each other. at postion (10, 3)
+Two vampires bit each other. at postion (8, 5)
+A human drank water. at postion (9, 6) with and now has health 100
+--------------------
+Timestep: 3
+--------------------
+new no of vampires 11
+A human was bitten by a vampire. at postion (4, 7)
+Human: Health=97, Age=34, Position=(4, 7)
+Both humans helped each other. at postion (3, 9)
+Two vampires bit each other. at postion (7, 6)
+Two vampires bit each other. at postion (4, 7)
+Two vampires bit each other. at postion (8, 0)
+A human drank water. at postion (8, 4) with and now has health 100
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (6, 9)
+Human: Health=96, Age=29, Position=(6, 9)
+Two vampires bit each other. at postion (10, 2)
+Two vampires bit each other. at postion (6, 9)
+A human ate garlic. at postion (2, 9)
+--------------------
+Timestep: 5
+--------------------
+A vampire was killed by a human. at postion (3, 4)
+Vampire: Health=80, Age=0, Position=(3, 4)
+A human ate food. at postion (7, 0)
+A human drank water. at postion (9, 3) with and now has health 100
+A human ate garlic. at postion (0, 6)
+--------------------
+Timestep: 6
+--------------------
+Both humans helped each other. at postion (3, 8)
+A human drank water. at postion (3, 8) with and now has health 100
+A human ate garlic. at postion (2, 6)
+--------------------
+Timestep: 7
+--------------------
+A human ate garlic. at postion (2, 0)
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 12
+A human was bitten by a vampire. at postion (7, 2)
+Human: Health=98, Age=24, Position=(7, 2)
+Two vampires bit each other. at postion (7, 2)
+A human ate food. at postion (1, 8)
+--------------------
+Timestep: 9
+--------------------
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 13
+A human was bitten by a vampire. at postion (6, 7)
+Human: Health=96, Age=50, Position=(6, 7)
+A vampire was killed by a human. at postion (6, 7)
+Vampire: Health=100, Age=0, Position=(6, 7)
+Two vampires bit each other. at postion (8, 5)
+Simulation finished.
+---------Remaining-----------
+Humans:
+6
+--------------------
+Vampires:
+12
+--------------------
+Food:
+3
+--------------------
+Water:
+0
+--------------------
+Garlic:
+1
+---------Eaten-----------
+Eaten humans Human: Health=97, Age=34, Position=(4, 7)
+-------------------
+Eaten humans Human: Health=96, Age=29, Position=(6, 9)
+-------------------
+Eaten humans Human: Health=98, Age=24, Position=(7, 2)
+-------------------
+Eaten humans Human: Health=96, Age=50, Position=(6, 7)
+-------------------
+Eaten vampires Vampire: Health=80, Age=0, Position=(3, 4)
+Eaten vampires Vampire: Health=100, Age=0, Position=(6, 7)
+---------TOTAL----------
+no of humans 4
+no of vampires 2
+writing csv
+False
+I/O error
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (3, 4), (3, 1), (3, 7), (5, 4), (0, 2), (8, 9), (9, 8), (8, 6), (1, 0), (0, 8), (2, 5), (1, 3), (1, 9), (7, 4), (6, 2), (7, 1), (6, 5), (4, 2), (3, 0), (3, 9), (5, 0), (5, 3), (5, 9), (9, 1), (9, 4), (8, 8), (2, 4), (2, 1), (1, 5), (7, 3), (7, 9), (7, 6), (3, 2), (4, 1), (3, 5), (5, 2), (5, 5), (8, 4), (9, 3), (0, 0), (9, 9), (8, 7), (5, 8), (9, 6), (6, 6), (6, 3), (7, 8)}
+Running simulation...
+food [(7, 9), (7, 6), (3, 2), (4, 1), (3, 5)]
+water [(5, 2), (5, 5), (8, 4), (9, 3), (0, 0)]
+garlic [(9, 9), (8, 7), (5, 8), (9, 6), (6, 6)]
+--------------------
+Timestep: 1
+--------------------
+new no of vampires 2
+A human was bitten by a vampire. at postion (0, 8)
+Human: Health=99, Age=41, Position=(0, 8)
+One human used another. at postion (4, 3)
+Both humans helped each other. at postion (1, 1)
+Both humans helped each other. at postion (1, 1)
+Both humans helped each other. at postion (3, 5)
+One human used another. at postion (10, 2)
+Both humans helped each other. at postion (1, 1)
+Two vampires bit each other. at postion (0, 8)
+A human ate food. at postion (3, 5)
+A human ate food. at postion (4, 1)
+A human ate garlic. at postion (6, 6)
+--------------------
+Timestep: 2
+--------------------
+A vampire was killed by a human. at postion (2, 7)
+Vampire: Health=53, Age=0, Position=(2, 7)
+Both humans helped each other. at postion (0, 6)
+Both humans helped each other. at postion (0, 6)
+One human used another. at postion (0, 6)
+One human used another. at postion (3, 6)
+Both humans helped each other. at postion (3, 6)
+Both humans helped each other. at postion (3, 6)
+Both humans helped each other. at postion (2, 2)
+Both humans helped each other. at postion (2, 2)
+Both humans helped each other. at postion (5, 1)
+Both humans helped each other. at postion (7, 8)
+Both humans helped each other. at postion (2, 2)
+A human ate garlic. at postion (9, 6)
+--------------------
+Timestep: 3
+--------------------
+One human used another. at postion (4, 9)
+A human drank water. at postion (0, 0) with and now has health 100
+A human drank water. at postion (5, 2) with and now has health 100
+--------------------
+Timestep: 4
+--------------------
+Both humans helped each other. at postion (6, 8)
+Both humans helped each other. at postion (3, 7)
+One human used another. at postion (3, 8)
+A human ate food. at postion (7, 6)
+A human ate food. at postion (7, 9)
+A human drank water. at postion (5, 5) with and now has health 100
+A human drank water. at postion (8, 4) with and now has health 100
+--------------------
+Timestep: 5
+--------------------
+Both humans helped each other. at postion (9, 7)
+One human used another. at postion (0, 7)
+Both humans helped each other. at postion (4, 5)
+Both humans helped each other. at postion (0, 1)
+One human used another. at postion (1, 3)
+A human ate garlic. at postion (9, 9)
+--------------------
+Timestep: 6
+--------------------
+One human used another. at postion (6, 6)
+A human drank water. at postion (9, 3) with and now has health 100
+--------------------
+Timestep: 7
+--------------------
+One human used another. at postion (10, 6)
+One human used another. at postion (10, 6)
+One human used another. at postion (6, 7)
+One human used another. at postion (10, 6)
+One human used another. at postion (5, 5)
+A human ate garlic. at postion (8, 7)
+--------------------
+Timestep: 8
+--------------------
+Both humans helped each other. at postion (5, 2)
+Both humans helped each other. at postion (3, 4)
+A human ate food. at postion (3, 2)
+--------------------
+Timestep: 9
+--------------------
+Both humans helped each other. at postion (7, 5)
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 2
+A human was bitten by a vampire. at postion (2, 7)
+Human: Health=60, Age=30, Position=(2, 7)
+new no of vampires 3
+A human was bitten by a vampire. at postion (2, 7)
+Human: Health=70, Age=33, Position=(2, 7)
+One human used another. at postion (5, 5)
+Two vampires bit each other. at postion (2, 7)
+Two vampires bit each other. at postion (2, 7)
+Two vampires bit each other. at postion (2, 7)
+Simulation finished.
+---------Remaining-----------
+Humans:
+27
+--------------------
+Vampires:
+3
+--------------------
+Food:
+0
+--------------------
+Water:
+0
+--------------------
+Garlic:
+1
+---------Eaten-----------
+Eaten humans Human: Health=99, Age=41, Position=(0, 8)
+-------------------
+Eaten humans Human: Health=60, Age=30, Position=(2, 7)
+-------------------
+Eaten humans Human: Health=70, Age=33, Position=(2, 7)
+-------------------
+Eaten vampires Vampire: Health=53, Age=0, Position=(2, 7)
+---------TOTAL----------
+no of humans 3
+no of vampires 1
+writing csv
+CSV file created successfully
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(3, 4), (4, 3), (4, 6), (5, 1), (8, 0), (8, 3), (0, 2), (8, 6), (0, 5), (1, 0), (1, 6), (1, 3), (7, 4), (7, 7), (6, 5), (6, 8), (3, 0), (4, 5), (3, 3), (3, 9), (5, 0), (4, 8), (5, 3), (5, 9), (9, 1), (9, 7), (9, 4), (1, 2), (2, 7), (1, 5), (7, 0), (6, 4), (7, 9), (6, 7), (7, 6), (3, 2), (4, 7), (3, 5), (4, 4), (9, 0), (5, 5), (3, 8), (0, 0), (8, 1), (9, 6), (0, 6), (2, 6), (6, 0), (6, 6)}
+Running simulation...
+food [(7, 9), (6, 7), (7, 6), (3, 2), (4, 7)]
+water [(3, 5), (4, 4), (9, 0), (5, 5), (3, 8)]
+garlic [(0, 0), (8, 1), (9, 6), (0, 6), (2, 6)]
+--------------------
+Timestep: 1
+--------------------
+Both humans helped each other. at postion (2, 0)
+Both humans helped each other. at postion (10, 3)
+One human used another. at postion (1, 3)
+Both humans helped each other. at postion (4, 4)
+Both humans helped each other. at postion (2, 2)
+A human drank water. at postion (4, 4) with and now has health 100
+A human drank water. at postion (5, 5) with and now has health 100
+A human ate garlic. at postion (0, 6)
+--------------------
+Timestep: 2
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (7, 5)
+Human: Health=98, Age=11, Position=(7, 5)
+Both humans helped each other. at postion (0, 0)
+Both humans helped each other. at postion (9, 0)
+One human used another. at postion (5, 0)
+Both humans helped each other. at postion (8, 9)
+Two vampires bit each other. at postion (7, 5)
+A human ate food. at postion (7, 6)
+A human drank water. at postion (9, 0) with and now has health 100
+A human drank water. at postion (3, 5) with and now has health 100
+A human ate garlic. at postion (0, 0)
+--------------------
+Timestep: 3
+--------------------
+One human used another. at postion (2, 7)
+Both humans helped each other. at postion (3, 0)
+One human used another. at postion (4, 1)
+A human ate food. at postion (3, 2)
+A human ate food. at postion (7, 9)
+A human ate food. at postion (6, 7)
+A human ate garlic. at postion (2, 6)
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (4, 6)
+Human: Health=77, Age=43, Position=(4, 6)
+Both humans helped each other. at postion (9, 10)
+Two vampires bit each other. at postion (4, 6)
+--------------------
+Timestep: 5
+--------------------
+Both humans helped each other. at postion (5, 9)
+One human used another. at postion (5, 9)
+One human used another. at postion (3, 4)
+Both humans helped each other. at postion (5, 0)
+Both humans helped each other. at postion (1, 7)
+Both humans helped each other. at postion (3, 9)
+One human used another. at postion (5, 9)
+--------------------
+Timestep: 6
+--------------------
+Both humans helped each other. at postion (5, 8)
+Both humans helped each other. at postion (2, 1)
+Both humans helped each other. at postion (4, 10)
+Both humans helped each other. at postion (2, 9)
+A human ate food. at postion (4, 7)
+A human drank water. at postion (3, 8) with and now has health 100
+--------------------
+Timestep: 7
+--------------------
+Both humans helped each other. at postion (5, 4)
+Both humans helped each other. at postion (5, 7)
+Both humans helped each other. at postion (7, 8)
+Both humans helped each other. at postion (5, 9)
+One human used another. at postion (5, 2)
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 5
+A human was bitten by a vampire. at postion (6, 3)
+Human: Health=92, Age=50, Position=(6, 3)
+Both humans helped each other. at postion (2, 6)
+One human used another. at postion (7, 4)
+One human used another. at postion (2, 3)
+Two vampires bit each other. at postion (6, 3)
+--------------------
+Timestep: 9
+--------------------
+One human used another. at postion (2, 2)
+--------------------
+Timestep: 10
+--------------------
+new no of vampires 6
+A human was bitten by a vampire. at postion (1, 1)
+Human: Health=98, Age=32, Position=(1, 1)
+One human used another. at postion (6, 4)
+One human used another. at postion (3, 4)
+One human used another. at postion (3, 5)
+Two vampires bit each other. at postion (0, 6)
+Two vampires bit each other. at postion (1, 1)
+Simulation finished.
+---------Remaining-----------
+Humans:
+26
+--------------------
+Vampires:
+6
+--------------------
+Food:
+0
+--------------------
+Water:
+0
+--------------------
+Garlic:
+2
+---------Eaten-----------
+Eaten humans Human: Health=98, Age=11, Position=(7, 5)
+-------------------
+Eaten humans Human: Health=77, Age=43, Position=(4, 6)
+-------------------
+Eaten humans Human: Health=92, Age=50, Position=(6, 3)
+-------------------
+Eaten humans Human: Health=98, Age=32, Position=(1, 1)
+-------------------
+---------TOTAL----------
+no of humans 4
+no of vampires 0
+writing csv
+CSV file created successfully
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(4, 0), (3, 1), (4, 6), (9, 2), (8, 0), (0, 2), (8, 9), (9, 8), (0, 5), (2, 2), (1, 0), (1, 3), (7, 4), (6, 2), (7, 7), (6, 8), (4, 2), (3, 0), (3, 3), (4, 8), (3, 6), (5, 3), (5, 9), (8, 2), (0, 1), (0, 7), (1, 2), (0, 4), (1, 8), (7, 3), (6, 7), (7, 6), (3, 2), (4, 7), (3, 5), (9, 0), (3, 8), (8, 4), (5, 8), (9, 9), (1, 1), (0, 3), (0, 9), (1, 4), (2, 9), (1, 7), (7, 2), (7, 5), (6, 3), (7, 8)}
+Running simulation...
+food [(4, 7), (3, 5), (9, 0), (3, 8), (8, 4)]
+water [(5, 8), (9, 9), (1, 1), (0, 3), (0, 9)]
+garlic [(1, 4), (2, 9), (1, 7), (7, 2), (7, 5)]
+--------------------
+Timestep: 1
+--------------------
+One human used another. at postion (3, 1)
+Both humans helped each other. at postion (3, 1)
+Both humans helped each other. at postion (3, 1)
+Both humans helped each other. at postion (2, 4)
+A human drank water. at postion (0, 3) with and now has health 100
+A human ate garlic. at postion (1, 4)
+--------------------
+Timestep: 2
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (7, 3)
+Human: Health=98, Age=36, Position=(7, 3)
+new no of vampires 5
+A human was bitten by a vampire. at postion (5, 7)
+Human: Health=108, Age=44, Position=(5, 7)
+Both humans helped each other. at postion (3, 0)
+One human used another. at postion (4, 8)
+Both humans helped each other. at postion (4, 4)
+Two vampires bit each other. at postion (5, 7)
+Two vampires bit each other. at postion (7, 3)
+A human drank water. at postion (5, 8) with and now has health 100
+A human ate garlic. at postion (7, 2)
+--------------------
+Timestep: 3
+--------------------
+Both humans helped each other. at postion (4, 0)
+Both humans helped each other. at postion (7, 7)
+Both humans helped each other. at postion (6, 4)
+A human ate food. at postion (8, 4)
+A human ate garlic. at postion (7, 5)
+--------------------
+Timestep: 4
+--------------------
+A vampire was killed by a human. at postion (6, 7)
+Vampire: Health=80, Age=0, Position=(6, 7)
+new no of vampires 5
+A human was bitten by a vampire. at postion (2, 4)
+Human: Health=106, Age=19, Position=(2, 4)
+One human used another. at postion (6, 7)
+Both humans helped each other. at postion (3, 6)
+Two vampires bit each other. at postion (2, 4)
+A human ate food. at postion (3, 8)
+A human ate food. at postion (3, 5)
+--------------------
+Timestep: 5
+--------------------
+Both humans helped each other. at postion (6, 7)
+One human used another. at postion (5, 9)
+One human used another. at postion (6, 0)
+Both humans helped each other. at postion (3, 3)
+--------------------
+Timestep: 6
+--------------------
+Both humans helped each other. at postion (4, 6)
+Both humans helped each other. at postion (9, 7)
+One human used another. at postion (2, 4)
+Both humans helped each other. at postion (2, 4)
+Both humans helped each other. at postion (4, 7)
+Both humans helped each other. at postion (2, 4)
+A human ate food. at postion (4, 7)
+A human ate garlic. at postion (1, 7)
+A human ate garlic. at postion (2, 9)
+--------------------
+Timestep: 7
+--------------------
+new no of vampires 6
+A human was bitten by a vampire. at postion (3, 0)
+Human: Health=95, Age=41, Position=(3, 0)
+new no of vampires 7
+A human was bitten by a vampire. at postion (2, 8)
+Human: Health=99, Age=33, Position=(2, 8)
+A vampire was killed by a human. at postion (2, 8)
+Vampire: Health=100, Age=0, Position=(2, 8)
+Both humans helped each other. at postion (0, 0)
+One human used another. at postion (3, 8)
+One human used another. at postion (5, 7)
+Two vampires bit each other. at postion (3, 0)
+--------------------
+Timestep: 8
+--------------------
+new no of vampires 7
+A human was bitten by a vampire. at postion (6, 6)
+Human: Health=99, Age=12, Position=(6, 6)
+One human used another. at postion (5, 1)
+One human used another. at postion (8, 4)
+Both humans helped each other. at postion (8, 5)
+One human used another. at postion (3, 9)
+One human used another. at postion (3, 9)
+Both humans helped each other. at postion (1, 7)
+One human used another. at postion (3, 9)
+Two vampires bit each other. at postion (4, 6)
+Two vampires bit each other. at postion (6, 6)
+--------------------
+Timestep: 9
+--------------------
+Both humans helped each other. at postion (6, 2)
+One human used another. at postion (0, 6)
+One human used another. at postion (10, 9)
+Two vampires bit each other. at postion (7, 7)
+Two vampires bit each other. at postion (1, 8)
+A human drank water. at postion (1, 1) with and now has health 100
+--------------------
+Timestep: 10
+--------------------
+Simulation finished.
+---------Remaining-----------
+Humans:
+24
+--------------------
+Vampires:
+7
+--------------------
+Food:
+1
+--------------------
+Water:
+2
+--------------------
+Garlic:
+0
+---------Eaten-----------
+Eaten humans Human: Health=98, Age=36, Position=(7, 3)
+-------------------
+Eaten humans Human: Health=108, Age=44, Position=(5, 7)
+-------------------
+Eaten humans Human: Health=106, Age=19, Position=(2, 4)
+-------------------
+Eaten humans Human: Health=95, Age=41, Position=(3, 0)
+-------------------
+Eaten humans Human: Health=99, Age=33, Position=(2, 8)
+-------------------
+Eaten humans Human: Health=99, Age=12, Position=(6, 6)
+-------------------
+Eaten vampires Vampire: Health=80, Age=0, Position=(6, 7)
+Eaten vampires Vampire: Health=100, Age=0, Position=(2, 8)
+---------TOTAL----------
+no of humans 6
+no of vampires 2
+writing csv
+CSV file created successfully
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(3, 1), (3, 7), (4, 9), (4, 6), (5, 7), (9, 5), (0, 2), (2, 5), (1, 9), (2, 8), (7, 7), (6, 8), (4, 2), (3, 3), (3, 9), (5, 6), (4, 8), (3, 6), (5, 3), (8, 2), (5, 9), (9, 1), (9, 7), (8, 5), (0, 1), (8, 8), (1, 2), (0, 4), (2, 1), (6, 1), (7, 0), (6, 4), (7, 3), (7, 9), (6, 7), (3, 2), (4, 1), (3, 5), (3, 8), (9, 0), (5, 5), (9, 3), (9, 9), (0, 0), (9, 6), (0, 9), (1, 4), (2, 6), (6, 0), (6, 6), (5, 0)}
+Running simulation...
+food [(6, 7), (3, 2), (4, 1), (3, 5), (3, 8)]
+water [(9, 0), (5, 5), (9, 3), (9, 9), (0, 0)]
+garlic [(9, 6), (0, 9), (1, 4), (2, 6), (6, 0)]
+--------------------
+Timestep: 1
+--------------------
+A vampire was killed by a human. at postion (0, 4)
+Vampire: Health=87, Age=0, Position=(0, 4)
+One human used another. at postion (3, 7)
+Both humans helped each other. at postion (3, 7)
+One human used another. at postion (7, 8)
+Both humans helped each other. at postion (0, 4)
+Both humans helped each other. at postion (3, 7)
+A human drank water. at postion (0, 0) with and now has health 100
+--------------------
+Timestep: 2
+--------------------
+A vampire was killed by a human. at postion (8, 1)
+Vampire: Health=33, Age=0, Position=(8, 1)
+Both humans helped each other. at postion (0, 3)
+One human used another. at postion (1, 10)
+Both humans helped each other. at postion (1, 6)
+Both humans helped each other. at postion (8, 0)
+--------------------
+Timestep: 3
+--------------------
+Both humans helped each other. at postion (3, 6)
+One human used another. at postion (10, 0)
+One human used another. at postion (8, 10)
+Both humans helped each other. at postion (1, 1)
+A human drank water. at postion (5, 5) with and now has health 100
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 3
+A human was bitten by a vampire. at postion (5, 0)
+Human: Health=99, Age=44, Position=(5, 0)
+One human used another. at postion (7, 10)
+One human used another. at postion (6, 6)
+One human used another. at postion (8, 6)
+Two vampires bit each other. at postion (5, 0)
+A human ate food. at postion (3, 2)
+--------------------
+Timestep: 5
+--------------------
+new no of vampires 4
+A human was bitten by a vampire. at postion (6, 4)
+Human: Health=95, Age=25, Position=(6, 4)
+Both humans helped each other. at postion (2, 5)
+Both humans helped each other. at postion (5, 9)
+One human used another. at postion (7, 6)
+Two vampires bit each other. at postion (6, 4)
+A human ate garlic. at postion (1, 4)
+A human ate garlic. at postion (6, 0)
+--------------------
+Timestep: 6
+--------------------
+new no of vampires 5
+A human was bitten by a vampire. at postion (5, 6)
+Human: Health=104, Age=28, Position=(5, 6)
+A vampire was killed by a human. at postion (5, 6)
+Vampire: Health=100, Age=0, Position=(5, 6)
+A human ate food. at postion (3, 5)
+A human ate food. at postion (6, 7)
+A human drank water. at postion (9, 3) with and now has health 100
+A human ate garlic. at postion (9, 6)
+--------------------
+Timestep: 7
+--------------------
+A vampire was killed by a human. at postion (9, 1)
+Vampire: Health=80, Age=0, Position=(9, 1)
+Both humans helped each other. at postion (3, 6)
+One human used another. at postion (7, 6)
+A human ate food. at postion (4, 1)
+--------------------
+Timestep: 8
+--------------------
+A vampire was killed by a human. at postion (5, 5)
+Vampire: Health=60, Age=0, Position=(5, 5)
+One human used another. at postion (7, 2)
+One human used another. at postion (6, 5)
+One human used another. at postion (3, 5)
+Both humans helped each other. at postion (6, 10)
+--------------------
+Timestep: 9
+--------------------
+Both humans helped each other. at postion (5, 6)
+Both humans helped each other. at postion (0, 3)
+--------------------
+Timestep: 10
+--------------------
+Both humans helped each other. at postion (10, 4)
+Both humans helped each other. at postion (7, 4)
+Both humans helped each other. at postion (2, 7)
+One human used another. at postion (4, 5)
+Both humans helped each other. at postion (9, 4)
+Simulation finished.
+---------Remaining-----------
+Humans:
+27
+--------------------
+Vampires:
+2
+--------------------
+Food:
+1
+--------------------
+Water:
+2
+--------------------
+Garlic:
+2
+---------Eaten-----------
+Eaten humans Human: Health=99, Age=44, Position=(5, 0)
+-------------------
+Eaten humans Human: Health=95, Age=25, Position=(6, 4)
+-------------------
+Eaten humans Human: Health=104, Age=28, Position=(5, 6)
+-------------------
+Eaten vampires Vampire: Health=87, Age=0, Position=(0, 4)
+Eaten vampires Vampire: Health=33, Age=0, Position=(8, 1)
+Eaten vampires Vampire: Health=100, Age=0, Position=(5, 6)
+Eaten vampires Vampire: Health=80, Age=0, Position=(9, 1)
+Eaten vampires Vampire: Health=60, Age=0, Position=(5, 5)
+---------TOTAL----------
+no of humans 3
+no of vampires 5
+writing csv
+CSV file created successfully
+Initializing objects...
+no of food (5,) <class 'tuple'>
+{(3, 4), (4, 3), (3, 1), (3, 7), (4, 6), (5, 1), (8, 0), (9, 8), (1, 0), (0, 8), (1, 3), (1, 9), (6, 2), (7, 1), (6, 5), (3, 0), (5, 0), (3, 9), (3, 6), (8, 2), (9, 1), (9, 4), (8, 8), (2, 7), (1, 5), (7, 0), (1, 8), (7, 3), (3, 2), (4, 7), (5, 2), (4, 4), (3, 8), (9, 0), (8, 4), (5, 5), (9, 3), (9, 9), (8, 1), (8, 7), (9, 6), (0, 3), (0, 9), (5, 8), (0, 6), (2, 3), (2, 9), (1, 7), (2, 6), (7, 2), (6, 6), (6, 3), (6, 9)}
+Running simulation...
+food [(5, 5), (9, 3), (9, 9), (8, 1), (8, 7)]
+water [(9, 6), (0, 3), (0, 9), (5, 8), (0, 6)]
+garlic [(2, 3), (2, 9), (1, 7), (2, 6), (7, 2)]
+--------------------
+Timestep: 1
+--------------------
+new no of vampires 6
+A human was bitten by a vampire. at postion (5, 3)
+Human: Health=99, Age=31, Position=(5, 3)
+new no of vampires 7
+A human was bitten by a vampire. at postion (5, 7)
+Human: Health=99, Age=14, Position=(5, 7)
+Both humans helped each other. at postion (8, 2)
+Both humans helped each other. at postion (5, 9)
+Both humans helped each other. at postion (4, 5)
+One human used another. at postion (4, 7)
+Two vampires bit each other. at postion (5, 7)
+Two vampires bit each other. at postion (5, 3)
+A human ate garlic. at postion (7, 2)
+--------------------
+Timestep: 2
+--------------------
+A vampire was killed by a human. at postion (7, 5)
+Vampire: Health=33, Age=0, Position=(7, 5)
+A human ate food. at postion (5, 5)
+A human drank water. at postion (5, 8) with and now has health 100
+A human drank water. at postion (0, 3) with and now has health 100
+--------------------
+Timestep: 3
+--------------------
+A vampire was killed by a human. at postion (3, 3)
+Vampire: Health=47, Age=0, Position=(3, 3)
+A vampire was killed by a human. at postion (3, 10)
+Vampire: Health=15, Age=0, Position=(3, 10)
+Both humans helped each other. at postion (2, 7)
+Both humans helped each other. at postion (9, 4)
+Both humans helped each other. at postion (1, 5)
+Both humans helped each other. at postion (6, 7)
+Both humans helped each other. at postion (4, 5)
+A human ate food. at postion (9, 3)
+--------------------
+Timestep: 4
+--------------------
+new no of vampires 5
+A human was bitten by a vampire. at postion (10, 1)
+Human: Health=97, Age=23, Position=(10, 1)
+Both humans helped each other. at postion (4, 2)
+Both humans helped each other. at postion (6, 6)
+One human used another. at postion (8, 5)
+Two vampires bit each other. at postion (10, 1)
+A human ate food. at postion (8, 1)
+A human drank water. at postion (0, 9) with and now has health 100
+A human ate garlic. at postion (2, 6)
+--------------------
+Timestep: 5
+--------------------
+new no of vampires 6
+A human was bitten by a vampire. at postion (10, 7)
+Human: Health=95, Age=38, Position=(10, 7)
+A vampire was killed by a human. at postion (10, 7)
+Vampire: Health=100, Age=0, Position=(10, 7)
+Both humans helped each other. at postion (5, 6)
+One human used another. at postion (5, 6)
+Both humans helped each other. at postion (5, 6)
+Both humans helped each other. at postion (7, 3)
+Both humans helped each other. at postion (6, 2)
+One human used another. at postion (5, 6)
+Both humans helped each other. at postion (5, 6)
+One human used another. at postion (4, 2)
+Both humans helped each other. at postion (6, 5)
+Both humans helped each other. at postion (8, 3)
+Both humans helped each other. at postion (5, 6)
+A human drank water. at postion (0, 6) with and now has health 100
+--------------------
+Timestep: 6
+--------------------
+A vampire was killed by a human. at postion (4, 9)
+Vampire: Health=80, Age=0, Position=(4, 9)
+new no of vampires 5
+A human was bitten by a vampire. at postion (3, 4)
+Human: Health=77, Age=35, Position=(3, 4)
+new no of vampires 6
+A human was bitten by a vampire. at postion (6, 3)
+Human: Health=114, Age=49, Position=(6, 3)
+Both humans helped each other. at postion (4, 6)
+One human used another. at postion (4, 8)
+Both humans helped each other. at postion (4, 4)
+Two vampires bit each other. at postion (3, 4)
+Two vampires bit each other. at postion (6, 3)
+--------------------
+Timestep: 7
+--------------------
+new no of vampires 7
+A human was bitten by a vampire. at postion (5, 3)
+Human: Health=93, Age=23, Position=(5, 3)
+Both humans helped each other. at postion (8, 5)
+One human used another. at postion (10, 2)
+Two vampires bit each other. at postion (5, 8)
+Two vampires bit each other. at postion (5, 3)
+--------------------
+Timestep: 8
+--------------------
+A vampire was killed by a human. at postion (0, 6)
+Vampire: Health=40, Age=0, Position=(0, 6)
+Both humans helped each other. at postion (6, 1)
+Both humans helped each other. at postion (7, 4)
+One human used another. at postion (7, 6)
+A human ate food. at postion (9, 9)
+A human ate garlic. at postion (2, 9)
+--------------------
+Timestep: 9
+--------------------
+A vampire was killed by a human. at postion (8, 8)
+Vampire: Health=15, Age=0, Position=(8, 8)
+new no of vampires 6
+A human was bitten by a vampire. at postion (5, 0)
+Human: Health=94, Age=19, Position=(5, 0)
+Two vampires bit each other. at postion (5, 0)
+A human drank water. at postion (9, 6) with and now has health 100
+--------------------
+Timestep: 10
+--------------------
+Both humans helped each other. at postion (4, 4)
+Both humans helped each other. at postion (7, 3)
+Both humans helped each other. at postion (6, 9)
+Simulation finished.
+---------Remaining-----------
+Humans:
+22
+--------------------
+Vampires:
+6
+--------------------
+Food:
+1
+--------------------
+Water:
+0
+--------------------
+Garlic:
+2
+---------Eaten-----------
+Eaten humans Human: Health=99, Age=31, Position=(5, 3)
+-------------------
+Eaten humans Human: Health=99, Age=14, Position=(5, 7)
+-------------------
+Eaten humans Human: Health=97, Age=23, Position=(10, 1)
+-------------------
+Eaten humans Human: Health=95, Age=38, Position=(10, 7)
+-------------------
+Eaten humans Human: Health=77, Age=35, Position=(3, 4)
+-------------------
+Eaten humans Human: Health=114, Age=49, Position=(6, 3)
+-------------------
+Eaten humans Human: Health=93, Age=23, Position=(5, 3)
+-------------------
+Eaten humans Human: Health=94, Age=19, Position=(5, 0)
+-------------------
+Eaten vampires Vampire: Health=33, Age=0, Position=(7, 5)
+Eaten vampires Vampire: Health=47, Age=0, Position=(3, 3)
+Eaten vampires Vampire: Health=15, Age=0, Position=(3, 10)
+Eaten vampires Vampire: Health=100, Age=0, Position=(10, 7)
+Eaten vampires Vampire: Health=80, Age=0, Position=(4, 9)
+Eaten vampires Vampire: Health=40, Age=0, Position=(0, 6)
+Eaten vampires Vampire: Health=15, Age=0, Position=(8, 8)
+---------TOTAL----------
+no of humans 8
+no of vampires 7
+writing csv
+CSV file created successfully
